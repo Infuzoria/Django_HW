@@ -124,6 +124,9 @@
         .lh-tight {
             line-height: 1.25;
         }
+        .form-container > div {
+            margin: 50px 50px;
+        }
     </style>
 
 </head>
@@ -310,8 +313,9 @@
                     </div>
                     <div class="card-body">
                         <p class="d-inline-flex gap-1">
-                            <button class="btn btn-outline-success" data-bs-toggle="collapse" href="#collapse1" role="button"
-                               aria-expanded="false" aria-controls="collapse1">
+                            <button class="btn btn-outline-success" data-bs-toggle="collapse" href="#collapse1"
+                                    role="button"
+                                    aria-expanded="false" aria-controls="collapse1">
                                 Как купить?
                             </button>
                             <button class="btn btn-outline-success" type="button" data-bs-toggle="collapse"
@@ -350,6 +354,82 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-12">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Cost</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Sum</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Intel Pentium G4400</td>
+                        <td>3 700</td>
+                        <td>4</td>
+                        <td>14800</td>
+                        <td>
+                            <div class="alert alert-success" role="alert">
+                                Обработан
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>ОЗУ Apacer NOX 16 ГБ</td>
+                        <td>5 099</td>
+                        <td>4</td>
+                        <td>20396</td>
+                        <td>
+                            <div class="alert alert-warning" role="alert">
+                                В обработке
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Материнская плата MSI PRO B650-P</td>
+                        <td>20 500</td>
+                        <td>1</td>
+                        <td>20 500</td>
+                        <td>
+                            <div class="alert alert-success" role="alert">
+                                Обработан
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Видеокарта AFOX GeForce</td>
+                        <td>11 400</td>
+                        <td>4</td>
+                        <td>45 600</td>
+                        <td>
+                            <div class="alert alert-danger" role="alert">
+                                Отменен
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Клавиатура DEXP K-301WU</td>
+                        <td>600</td>
+                        <td>10</td>
+                        <td>6 000</td>
+                        <td>
+                            <div class="alert alert-warning" role="alert">
+                                В обработке
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
 
